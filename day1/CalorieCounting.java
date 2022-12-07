@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.io.PrintWriter;
 
-public class day1 {
+public class CalorieCounting {
 
     public static BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
     public static PrintWriter output = new PrintWriter(new BufferedWriter(new OutputStreamWriter(System.out)));
