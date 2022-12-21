@@ -65,11 +65,6 @@ class Coord {
     }
 
     @Override
-    public int hashCode() {
-        return Integer.parseInt(String.valueOf(this.r) + String.valueOf(this.c < 0 ? this.c + 999999 : this.c));
-    }
-
-    @Override
     public boolean equals(Object o) {
         return this.r == ((Coord) o).r && this.c == ((Coord) o).c;
     }
